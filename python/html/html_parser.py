@@ -1,5 +1,5 @@
 '''
-python html_parser.py "<a href=""><img/></a><script async>"
+python html_parser.py '<a href=""><img/></a><script async></script>'
 '''
 from html.parser import HTMLParser
 from sys import argv
